@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="shorcut icon" href="./assets/logo/logo_title.png">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="/fontawesome-free-5.15.4-web/css/all.min.css">
+</head>
+<body>
+    <div class="app">
+        <div class="container">
+            <!-- Navbar --> 
+            <div class="navbar_block"></div>
+            <div class="navbar">
+                <div class="navbar_top">
+                    <div class="heading">
+                        <span class="check">
+                            <span class="check-ball" style="left: 2px;"></span>
+                        </span>
+                        <i class="navbar-icon fas fa-arrow-left"></i>
+                    </div>
+                    <div class="logo">
+                        <i class="logo_img fab fa-stumbleupon"></i>
+                        <span class="logo_heading"><span class="text-color_primary">Bee</span><span style="color: var(--dark-color);">music</span></span>
+                    </div>
+                    <div class="navbar-content">
+                        <ul class="navbar_list">
+                            <li class="navbar_item active">
+                                <a href="" class="navbar_link">
+                                    <i class="navbar_item-icon fas fa-home"></i>Home
+                                </a>
+                            </li>
+                            <li class="navbar_item">
+                                <a href="" class="navbar_link">
+                                    <i class="navbar_item-icon fas fa-chart-line"></i>Trend
+                                </a>
+                            </li>
+                            <li class="navbar_item">
+                                <a href="" class="navbar_link">
+                                    <i class="navbar_item-icon fas fa-compass"></i>Feed
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="navbar_list">
+                            <p class="navbar_heading">Discover</p>
+                            <li class="navbar_item">
+                                <a href="" class="navbar_link">
+                                    <i class="navbar_item-icon far fa-newspaper"></i>New and Notable
+                                </a>
+                            </li>
+                            <li class="navbar_item">
+                                <a href="" class="navbar_link">
+                                    <i class="navbar_item-icon fas fa-calendar-alt"></i>Realese Calender
+                                </a>
+                            </li>
+                            <li class="navbar_item">
+                                <a href="" class="navbar_link">
+                                    <i class="navbar_item-icon fas fa-ticket-alt"></i>Events
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="navbar_list">
+                            <p class="navbar_heading">Your Collection</p>
+                            <li class="navbar_item">
+                                <a href="" class="navbar_link">
+                                    <i class="navbar_item-icon fas fa-ticket-alt"></i>Favorite Songs
+                                </a>
+                            </li>
+                            <li class="navbar_item">
+                                <a href="" class="navbar_link">
+                                    <i class="navbar_item-icon fas fa-users"></i>Artist
+                                </a>
+                            </li>
+                            <li class="navbar_item">
+                                <a href="" class="navbar_link">
+                                    <i class="navbar_item-icon fas fa-star"></i>Albums
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navbar-bottom">
+                    <div class="user">
+                        <img src="./assets/img/avatar_user.jpg" class="user_avatar"></img>
+                        <div class="user_name">Nguyễn Đức Trung</div>
+                    </div>
+                    <i class="navbar-bottom_icon fas fa-chevron-right"></i>
+                </div>
+            </div>
+            <!-- Main content -->
+            <div class="main-content">
+                <header>
+                    <nav class="arrow-heading">
+                        <i class="arrow-dis fas fa-bars"></i>
+                        <!-- <i class="arrow-heading-btn fas fa-arrow-left"></i>
+                        <i class="arrow-heading-btn fas fa-arrow-right"></i> -->
+                    </nav>
+                    <div class="main-content__search">
+                        <i class="search-icon fas fa-search"></i>
+                        <input type="text" class="search-input" placeholder="Search for artist, songs...">
+                    </div>
+                </header>
+                <div class="main-content__des">What's hot<img class="main-content__trend-img"src="https://ngoc2003.github.io/Bee-Music-Project/assests/img/fire.png" alt=""></div>
+                <div class="main-content__trend">
+                    <span class="main-content__trend-title heading__items">Trending</span>
+                    <div class="main-content__trend-more">
+                        More
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+                <div class="main-content__banner">
+                    <p class="main-content__banner-artist">Artist</p>
+                    <h4 class="main-content__banner-des">On Top Of The World</h4>
+                    <div class="main-content__banner-btn">
+                        <div class="main-content__banner-private">
+                            <button class="play-btn">Play</button>
+                            <button class="follow-btn">Follow</button>
+                        </div>
+                        <span class="main-content__view">
+                            Monthly listeners
+                            <p>50.000</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="playlist">
+                    <div class="playlist__head">
+                        <h4 class="heading__items">My Playlist</h4>
+                        <a href="">Show all</a>
+                    </div>
+                    <div class="playlist-title">
+                        <span>#</span>
+                        <span>TITLE</span>
+                        <span>ARTIST</span>
+                        <span>TIME</span>
+                    </div>
+                    <div class="playlist__songs"></div>
+                </div>
+                <div class="control">
+                    <div class="play-control">
+                        <div class="play-control_act">
+                            <i class="far fa-heart"></i>
+                            <i class="fas fa-music"></i>
+                            <i class="fas fa-expand-alt"></i>
+                        </div>
+                        <div class="play-control_main">
+                            <i class="repeat fas fa-redo"></i>
+                            <i class="left fas fa-fast-backward"></i>
+                            <div class="btn-toggle-play">
+                                <i class="play fas fa-play-circle"></i>
+                                <i class="pause fas fa-pause-circle"></i>
+                            </div>
+                            <i class="right fas fa-fast-forward"></i>
+                            <i class="random fas fa-random"></i>
+                        </div>
+                        <div class="play-control_volumn">
+                            <i class="fas fa-volume-down"></i>
+                            <input type="range" id="volumn" class="volumn">
+                            <i class="fas fa-volume-up"></i>
+                        </div>
+
+                    </div>
+                    <div class="play-seekbar">
+                        <span class="time_left"></span>
+                        <input type="range" name="range" id="range" class="range" value="0" step="1" min="0" max="100">
+                        <audio id="audio" src=""></audio>
+                        <span class="time_right"></span>
+                    </div>
+                </div>
+            </div>
+            <!-- Short cut -->
+            <div class="sidebar">
+                <div class="sidebar__shorcut">
+                    <p class="heading__items">Shorcut</p>
+                    <ul class="sidebar__shorcut-list">
+                        <li class="sidebar__shorcut-item">
+                            Chill
+                            <img src="https://ngoc2003.github.io/Bee-Music-Project/assests/img/snow.png" alt="">
+                        </li>
+                        <li class="sidebar__shorcut-item">
+                            Hot
+                            <img src="https://ngoc2003.github.io/Bee-Music-Project/assests/img/star.png" alt="">
+                        </li>
+                        <li class="sidebar__shorcut-item">
+                            Piano instrumetal
+                            <img src="https://ngoc2003.github.io/Bee-Music-Project/assests/img/piano.png" alt="">
+                        </li>
+                        <li class="sidebar__shorcut-item">
+                            Jazz
+                            <img src="https://ngoc2003.github.io/Bee-Music-Project/assests/img/jazz.png" alt="">
+                        </li>
+                        <li class="sidebar__shorcut-item">
+                            Accoustic
+                            <img src="https://ngoc2003.github.io/Bee-Music-Project/assests/img/ghitar.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div class="sidebar__favourite">
+                    <p class="sidebar__favourite-title heading__items">Favorite Artists</p>
+                    <div class="sidebar__favourite-artist">
+                        <img src="https://ngoc2003.github.io/Bee-Music-Project/assests/img/t%C3%B3c-ti%C3%AAn.jpg" alt="">
+                        <div class="sidebar__favourite-artist-des">
+                            <h4>Tóc Tiên</h4>
+                            <p>6 songs in library</p>
+                        </div>
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+
+                    <div class="sidebar__favourite-artist">
+                        <img src="https://ngoc2003.github.io/Bee-Music-Project/assests/img/min.jpg" alt="">
+                        <div class="sidebar__favourite-artist-des">
+                            <h4>Min</h4>
+                            <p>5 songs in library</p>
+                        </div>
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+
+                </div>
+                <div class="sidebar__suggest-album">
+                    <div class="sidebar__suggest-block">
+                        <div class="sidebar__suggest-container">
+                            <img src="https://ngoc2003.github.io/Bee-Music-Project/assests/img/ng%C3%B4-lan-h%C6%B0%C6%A1ng.jpg" alt="">
+                        </div>
+                        <div class="sidebar__suggest-content">
+                            <div class="sider__suggest-info">
+                                <h4>Anh muốn đưa em về không</h4>
+                                <p>Ngô Lan Hương</p>
+                            </div>
+                            <i class="sidebar__suggest-icon far fa-plus-square"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>

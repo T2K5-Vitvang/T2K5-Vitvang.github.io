@@ -1,0 +1,130 @@
+@media (max-width:950px) and (min-width:376px) {
+    .container {
+        width: 100%;
+        max-width: 950px;
+        grid-template-columns: 2fr 0fr;
+    }
+    .main-content {
+        padding: 2rem;
+    }
+    .sidebar {
+        padding: 2rem 2rem 2rem .5rem;
+    }
+    .sidebar__suggest-container img {
+        width: 180px;
+    }
+    .control {
+        padding: 1.5rem;
+    }
+    .play-control {
+        font-size: 20px;
+    }
+    .play-control_main {
+        gap: 20px;
+    }
+    .volumn {
+        width: 8rem;
+    }
+    .song {
+        line-height: 1.4;
+        font-size: 16px;
+    }
+    .sidebar__suggest-album {
+        margin-top: 40px;
+    }
+}
+@media (max-width: 1190px) and (min-width: 951px) {
+    .container {
+        max-width: 1190px;
+        width: 100%;
+        grid-template-columns: 1fr .2fr;
+    }
+    .sidebar__suggest-container img {
+        width: 250px;
+    }
+    .main-content {
+        padding: 2.5rem;
+    }
+    .sidebar {
+        padding: 2.5rem 2.5rem 2.5rem 1rem;
+    }
+    .play-control {
+        font-size: 20px;
+    }
+    .control {
+        padding: 2.5rem;
+    }
+    .play-control_main {
+        gap: 20px;
+    }
+    .volumn {
+        width: 10rem
+    }
+}
+@media (min-width: 280px) and (max-width:576px){
+    .container {
+        max-width: 576px;
+        position: relative;
+        grid-template-columns: 1fr;
+    }
+    .play-control_volumn,
+    .play-control_act,
+    .main-content__trend,
+    .main-content__banner{
+        display: none;
+    }
+    .sidebar {
+        display: none;
+    }
+    .main-content {
+        padding: 2rem;
+    }
+    .play-control {
+        grid-template-columns: 1fr;
+        font-size: 24px;
+    }
+    .play-control_main {
+        gap: 30px;
+        justify-content: center;
+    }
+    .song {
+        font-size: 16px;
+    }
+    .control {
+        padding: 1.5rem;
+    }
+    .play-seekbar {
+        margin-top: 20px;
+    }
+    .main-content__search {
+        padding: 6px 18px;
+    }
+    .title,
+    .artist {
+        display: block;
+        display: -webkit-box;
+        max-height: 24px;
+        -webkit-line-clamp: 1;
+        visibility: visible;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .playlist-title {
+        font-size: 14px;
+    }
+    .navbar_top {
+        padding: 2rem;
+    }
+    .navbar {
+        width: 100%;
+        position: absolute;
+        height: 100%;
+    }
+    
+    
+}
+@media (max-width:800px) {
+    .sidebar {
+        display: none;
+    }
+}

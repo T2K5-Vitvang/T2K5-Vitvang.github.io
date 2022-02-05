@@ -1,0 +1,34 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Poppis';
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+:root {
+    --btn-play: #000000;
+    --btn-follow: #ffffff;
+    --btn-check: #000000;
+    --btn-check-ball: #ffffff;
+    --text-color: #676669;
+    --one-color: #dddddd;
+    --two-color: #ffc876;
+    --third-color: #121212;
+    --white-color: #ffffff;
+    --dark-color: #000;
+    --primary-color: #e7e8f3;
+}
+.app.dark-theme {
+    --white-color: #000;
+    --dark-color: #fff;
+    --primary-color: #092c3e;
+    --text-color: #ccc;
+}
+.heading__items {
+    color: var(--dark-color);
+}
