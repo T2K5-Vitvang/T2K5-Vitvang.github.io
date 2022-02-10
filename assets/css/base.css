@@ -32,3 +32,14 @@ html {
 .heading__items {
     color: var(--dark-color);
 }
+.title,
+.artist {
+        display: block;
+        display: -webkit-box;
+        max-height: 24px;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        visibility: visible;
+        text-overflow: ellipsis;
+        overflow: hidden;
+}
