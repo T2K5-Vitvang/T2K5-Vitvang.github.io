@@ -99,16 +99,6 @@
     .main-content__search {
         padding: 6px 18px;
     }
-    .title,
-    .artist {
-        display: block;
-        display: -webkit-box;
-        max-height: 24px;
-        -webkit-line-clamp: 1;
-        visibility: visible;
-        text-overflow: ellipsis;
-        overflow: hidden;
-    }
     .playlist-title {
         font-size: 14px;
     }
